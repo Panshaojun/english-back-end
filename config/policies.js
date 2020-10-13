@@ -20,7 +20,8 @@ module.exports.policies = {
   StudyController: {
     '*': false,
     'get':true,
-    'upd':true
+    'upd':true,
+    'store':true,
   }
   
 
