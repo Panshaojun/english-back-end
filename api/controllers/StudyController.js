@@ -83,7 +83,7 @@ module.exports = {
                                 })
                             } else {
                                 res.json({
-                                    code: 0,
+                                    code: 1,
                                     msg: "文件下载完毕,数据连接错误？"
                                 })
                             }
