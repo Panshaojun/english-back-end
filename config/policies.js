@@ -17,11 +17,8 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
   '*': false,
-  StudyController: {
-    '*': false,
-    'get':true,
-    'upd':true,
-    'store':true,
+  StudyOptController: {
+    '*':true
   }
   
 
