@@ -49,8 +49,8 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     adapter: 'sails-mysql',
-    url: 'mysql://root:psj&cyj775295@localhost:3306/english',
-    // url: 'mysql://root:psj&cyj775295@cdb-9axf5m9w.cd.tencentcdb.com:10037/english',
+    // url: 'mysql://root:psj&cyj775295@localhost:3306/english',
+    url: 'mysql://root:psj&cyj775295@cdb-9axf5m9w.cd.tencentcdb.com:10037/english',
 
   },
 
