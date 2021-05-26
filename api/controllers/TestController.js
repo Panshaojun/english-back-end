@@ -38,7 +38,7 @@ module.exports = {
                         })
                     } else {
                         res.json({
-                            code: 2,
+                            code: 0,
                             msg: "文件下载完毕"
                         })
                     }
