@@ -30,7 +30,7 @@ module.exports = {
                 })
             } else {//文件未存在
                 const stream = fs.createWriteStream(fileTempUrl);
-                request(fileUrl).pipe(stream).on("close", async (err) => {
+                request(fileUrl).pipe(stream).on("close",(err) => {
                     if (err) {
                         res.json({
                             code: 1,
