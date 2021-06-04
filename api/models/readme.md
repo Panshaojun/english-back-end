@@ -9,6 +9,7 @@ module.exports = {
         unique?: boolean,
         columnName?: string,                                    //表对应的字段，默认和【key】一致
         columnType?: string,                                    //取决于数据库，未填写取决于上面的type
+        defaultsTo?: any
     },
   }
 };
