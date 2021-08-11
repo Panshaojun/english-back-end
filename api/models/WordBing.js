@@ -1,4 +1,5 @@
 module.exports = {
+    tableName:"word_bing",
     attributes: {
         key: { type: 'string', required: true },
         definition:{type:'json',required: true,columnType:"text"},

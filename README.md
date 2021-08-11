@@ -16,6 +16,6 @@ npm run build
 
 ## 运行
 + 直接安装node执行命令`npm run app`或者`sails lift`;
-+ 或者您安装自带node的管理器，诸如PM2这种，直接将启动文件指向该目录下的`app.js`，然后启动即可
++ 或者你安装自带node的管理器，诸如PM2这种，直接将启动文件指向该目录下的`app.js`，然后启动即可
 
 
