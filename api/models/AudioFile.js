@@ -1,5 +1,5 @@
 module.exports = {
-    tableName:"review_date",
+    tableName:"audio_file",
     attributes: {
         file_path:{type:'string',required: true},
     },

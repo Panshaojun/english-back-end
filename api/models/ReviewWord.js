@@ -1,6 +1,8 @@
 module.exports = {
     tableName:"review_word",
     attributes: {
-        date:{type:'string',required: true},
+        rid:{type:'string',required: true},
+        mark:{type:'string',required: true},
+        comment:{type:'string',required: true}
     },
 };
