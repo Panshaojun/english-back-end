@@ -2,7 +2,7 @@ const response = require("../../utils/response");
 module.exports = {
     getMaxReviewId: async (req, res) => {
         try {
-            var NAMES_OF_PETS_SQL = `SELECT MAX(id) as id FROM review_word;`;
+            var NAMES_OF_PETS_SQL = `use english;SELECT MAX(id) as id FROM review_word;`;
             // Send it to the database.
             var rawResult = await sails.sendNativeQuery(NAMES_OF_PETS_SQL);
             res.json(response.ok(rawResult.rows[0].id))
